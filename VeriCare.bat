@@ -8,8 +8,7 @@ mode con: cols=90 lines=30
 :veriCare
 cls & echo (!)Note: Run the script as administrator.
 echo. & echo ^> Welcome to VeriCare v1.0 & echo   Verifone Technical Support Repair Tool.
-echo.
-echo ^> Please select one of the options:
+echo. & echo ^> Please select one of the options:
 echo  1 = VeriClear
 echo  2 = VeriService
 echo  3 = VeriNetwork
