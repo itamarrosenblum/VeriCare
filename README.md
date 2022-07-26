@@ -12,3 +12,5 @@
 ![VeriCare](https://i.postimg.cc/JhB1vgsr/2.png)
 #### VeriService Window:
 ![VeriCare](https://i.postimg.cc/RZYSP9Vp/3.png)
+#### VeriNetwork Window:
+![VeriCare](https://i.postimg.cc/QMc6HPht/34.png)
