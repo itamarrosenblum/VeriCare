@@ -90,13 +90,13 @@ if /i %VALUE%==%VALUE% goto veriService
 :: Close the Front Office App
 tasklist | find "Retail360.IL.FrontOffice." > nul & (tskill re*) || (echo.)
 :: Restart SQL Server (SQLEXPRESS)
-net stop MSSQL$SQLEXPRESS /q & net start MSSQL$SQLEXPRESS
+net stop MSSQL$SQLEXPRESS & net start MSSQL$SQLEXPRESS
 :: Restart VR360.JobAgent
-net stop VR360.JobAgent /q & net start VR360.JobAgent
+net stop VR360.JobAgent & net start VR360.JobAgent
 :: Restart VR360.WebServer
-net stop VR360.WebServer /q & net start VR360.WebServer
+net stop VR360.WebServer & net start VR360.WebServer
 :: Restart RAU Service
-net stop RAUClientService /q & net start RAUClientService
+net stop RAUClientService & net start RAUClientService
 :: Run the Front Office App
 start "" "D:\VeriFone Retail360\Front-Office.IL\Retail360.IL.FrontOffice.exe"
 :: Back to VeriCare
