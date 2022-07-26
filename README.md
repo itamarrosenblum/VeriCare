@@ -6,8 +6,9 @@
 - Display network configuration (IPv4, Subnet Mask, Default Getway) and ping testing.
 
 ## Demonstration 🤹‍♂️
+#### Home Window:
 ![VeriCare](https://i.postimg.cc/T312qhGW/1.png)
-
+#### VeriClear Window:
 ![VeriCare](https://i.postimg.cc/JhB1vgsr/2.png)
-
+#### VeriService Window:
 ![VeriCare](https://i.postimg.cc/RZYSP9Vp/3.png)
